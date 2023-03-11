@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #C85C8E;
+    width: 100%;
+    max-width: 800px;
+    padding: 20PX;
+
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.box1 {
+    width: 100%;
+    background-color: #7B2869;
+    height: 300PX;
+}
+
+.box2 {
+    width: 100%;
+    background-color: #FFBABA;
+    height: 200PX;
+    
+
+}
+.box3 {
+    width: 50%;
+    background-color: #FFBABA;
+    height: 200PX;
+}
+
+.box4 {
+    width: 50%;
+    background-color: #FFBABA;
+    height: 200PX;
+}
+
+.box5 {
+    width: 100%;
+    background-color: #7B2869;
+    height: 100PX;
+}
