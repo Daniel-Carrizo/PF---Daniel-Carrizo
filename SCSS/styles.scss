@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: aliceblue;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px;
+    text-align:center;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align:center; 
+}
+
+
 .container{
     background-color: #C85C8E;
     width: 100%;  
@@ -18,13 +37,13 @@
 .box1 {
     width: 100%;
     background-color: #7B2869;
-    height: 300PX;
+    height: auto;
 }
 
 .box2 {
     width: 100%;
     background-color: #FFBABA;
-    height: 200PX;
+    height: 200px;
     
 
 }
@@ -45,7 +64,6 @@
     background-color: #7B2869;
     height:150px;
 }
-
 
 @media all and (max-width:420px) {
     .box3, .box4, .box5 {
