@@ -1,7 +1,11 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #C85C8E;
 }
 
 h1 {
@@ -10,28 +14,53 @@ h1 {
     font-size: 5.625rem;
     line-height: 2;
     margin: 50px;
-    text-align:center;
+    text-align: center;
 }
 
 h2 {
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: normal;
     padding-bottom: 10px;
-    text-align:center; 
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: left;
 }
 
 
-.container{
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding: 10px;
+    text-align: left;
+}
+
+
+hr {
+    border: dotted #9D3C72 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;}
+
+.container {
     background-color: #C85C8E;
-    width: 100%;  
+    width: 100%;
     padding: 20PX;
     margin: auto;
 
     display: flex;
-    flex-wrap:wrap;
-    
+    flex-wrap: wrap;
+
 }
 
 .box1 {
@@ -43,10 +72,11 @@ h2 {
 .box2 {
     width: 100%;
     background-color: #FFBABA;
-    height: 200px;
-    
+    height: auto;
+
 
 }
+
 .box3 {
     width: 50%;
     background-color: #FFBABA;
@@ -62,11 +92,67 @@ h2 {
 .box5 {
     width: 100%;
     background-color: #7B2869;
-    height:150px;
+    height: 150px;
 }
 
+
+.top-cloud {
+    position: absolute;
+    left: 260px;
+    top: 60px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    right: 200px;
+    top: 450px;
+}
+
+
+.EHlogo {
+    height: 50%;
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.circlephoto {
+    height: 50%;
+    width: 100%;
+    max-width: 250px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+
+.teachericon {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.computericon {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
 @media all and (max-width:420px) {
-    .box3, .box4, .box5 {
+
+    .box3,
+    .box4,
+    .box5 {
         width: 100%;
     }
 }
