@@ -8,7 +8,7 @@ body {
 
 h1 {
   color: aliceblue;
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 5.625rem;
   line-height: 2;
   margin: 50px;
@@ -16,7 +16,7 @@ h1 {
 
 h2 {
   color: aliceblue;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   font-weight: normal;
   padding-bottom: 10px;
@@ -24,7 +24,7 @@ h2 {
 
 h3 {
   color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
   padding: 10px;
@@ -32,17 +32,11 @@ h3 {
 
 p {
   color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
   padding: 10px;
   text-align: left; }
-
-hr {
-  border: dotted #9D3C72 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto; }
 
 .container {
   background-color: #C85C8E;
@@ -65,44 +59,17 @@ hr {
 .box3 {
   width: 50%;
   background-color: #FFBABA;
-  height: 200PX; }
+  height: 200px; }
 
 .box4 {
   width: 50%;
   background-color: #FFBABA;
-  height: 200PX; }
+  height: 200px; }
 
 .box5 {
   width: 100%;
   background-color: #7B2869;
   height: 150px; }
-
-.top-cloud {
-  position: absolute;
-  left: 260px;
-  top: 60px; }
-
-.bottom-cloud {
-  position: absolute;
-  right: 200px;
-  top: 450px; }
-
-.EHlogo {
-  height: 50%;
-  width: 100%;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block; }
-
-.circlephoto {
-  height: 50%;
-  width: 100%;
-  max-width: 250px;
-  padding-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block; }
 
 .intro {
   width: 50%;
@@ -117,6 +84,22 @@ hr {
   width: 25%;
   float: right;
   margin-left: 30px; }
+
+hr {
+  border: dotted #9D3C72 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto; }
+
+.top-cloud {
+  position: absolute;
+  left: 260px;
+  top: 60px; }
+
+.bottom-cloud {
+  position: absolute;
+  right: 200px;
+  top: 450px; }
 
 footer {
   background-color: #7B2869;
