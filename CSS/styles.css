@@ -6,6 +6,23 @@
 body {
   background-color: #C85C8E; }
 
+.EHlogo {
+  height: 50%;
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.circlephoto {
+  height: 50%;
+  width: 100%;
+  max-width: 250px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
 h1 {
   color: aliceblue;
   font-family: "Sacramento", cursive;
