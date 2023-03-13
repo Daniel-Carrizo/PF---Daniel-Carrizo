@@ -1,0 +1,35 @@
+h1 {
+    color: $color-heading;
+    font-family: $font-heading;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: $color-heading;
+    font-family: $font-body;
+    font-size: 3.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: $color-body;
+    font-family: $font-body;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: left;
+}
+
+p {
+    color: $color-body;
+    font-family: $font-body;
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding: 10px;
+    text-align: left;
+}
